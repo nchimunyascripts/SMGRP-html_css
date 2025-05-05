@@ -44,6 +44,131 @@ A collection of coding challenges covering fundamental to advanced HTML/CSS conc
 3. Complete challenges following instructions in each file
 4. View results in browser
 
+# Instructions
+
+## HTML Basics Challenges
+
+### 0-html-structure.html
+**Instructions**:
+1. Create a complete HTML5 document structure
+2. Set document title to "About Me"
+3. Add an `<h1>` heading with text "Welcome to My Page"
+4. Save as `0-html-structure.html`
+
+### 1-headings-paragraphs.html
+**Instructions**:
+1. Create main heading `<h1>` "My Favorite Books"
+2. Add three `<h2>` subheadings for different genres
+3. Include at least two `<p>` paragraphs under each genre
+4. Save as `1-headings-paragraphs.html`
+
+### 2-lists.html
+**Instructions**:
+1. Create an ordered list `<ol>` of top 5 movies
+2. Create an unordered list `<ul>` of recipe ingredients
+3. Style lists with different bullet types
+4. Save as `2-lists.html`
+
+### 3-links-images.html
+**Instructions**:
+1. Add external link that opens in new tab (`target="_blank"`)
+2. Include local image with relative path
+3. Add web image with absolute URL and alt text
+4. Save as `3-links-images.html`
+
+## CSS Basics Challenges
+
+### 4-colors-backgrounds.css
+**Instructions**:
+1. Create `color-box` class with:
+   - 200px dimensions
+   - Semi-transparent red background
+   - Dashed blue border
+   - Rounded corners
+2. Save as `4-colors-backgrounds.css`
+
+### 5-text-styling.css
+**Instructions**:
+1. Style `fancy-text` class with:
+   - Arial, 24px
+   - Italic and bold
+   - 2px letter spacing
+   - Text shadow
+2. Save as `5-text-styling.css`
+
+### 6-box-model.css
+**Instructions**:
+1. Create `box-model-demo` class demonstrating:
+   - 300px width with padding
+   - Margin and border
+   - Centered alignment
+2. Save as `6-box-model.css`
+
+## Intermediate Challenges
+
+### 7-forms.html
+**Instructions**:
+1. Build registration form with:
+   - Text inputs
+   - Radio buttons
+   - Checkboxes
+   - Dropdown
+   - Styled submit button
+2. Save as `7-forms.html`
+
+### 8-responsive-grid.css
+**Instructions**:
+1. Create 3×3 responsive grid with:
+   - Header/footer spanning columns
+   - Sidebar and main content areas
+   - Mobile collapse behavior
+2. Save as `8-responsive-grid.css`
+
+## Project Challenges
+
+### 9-portfolio-project/
+**Instructions**:
+1. Create folder `9-portfolio-project/`
+2. Include:
+   - `index.html` (semantic structure)
+   - `styles.css` (responsive design)
+   - Dark/light mode toggle
+3. Implement smooth scrolling navigation
+
+### 10-css-art-challenge/
+**Instructions**:
+1. Create folder `10-css-art-challenge/`
+2. Make `index.html` with single `<div>`
+3. Create `styles.css` with:
+   - Pure CSS artwork
+   - At least one animation
+   - Responsive scaling
+
+**File Structure Example**:
+```
+html-css-challenges/
+├── 0-html-structure.html
+├── 1-headings-paragraphs.html
+├── 2-lists.html
+├── 3-links-images.html
+├── 4-colors-backgrounds.css
+├── 5-text-styling.css
+├── 6-box-model.css
+├── 7-forms.html
+├── 8-responsive-grid.css
+├── 9-portfolio-project/
+│   ├── index.html
+│   └── styles.css
+└── 10-css-art-challenge/
+    ├── index.html
+    └── styles.css
+```
+
+Each file should include:
+1. Comment header with challenge description
+2. Minimum required HTML/CSS to start
+3. Clear TODO comments for implementation steps
+
 ## HTML Basics Challenges
 
 ### 1. HTML Document Structure
@@ -256,128 +381,3 @@ A collection of coding challenges covering fundamental to advanced HTML/CSS conc
 - Implement at least one animation
 - Make it responsive
 
-### Instructions
-Here's a structured set of instructions for each HTML/CSS challenge file following your requested naming convention and template:
-
-## HTML Basics Challenges
-
-### 0-html-structure.html
-**Instructions**:
-1. Create a complete HTML5 document structure
-2. Set document title to "About Me"
-3. Add an `<h1>` heading with text "Welcome to My Page"
-4. Save as `0-html-structure.html`
-
-### 1-headings-paragraphs.html
-**Instructions**:
-1. Create main heading `<h1>` "My Favorite Books"
-2. Add three `<h2>` subheadings for different genres
-3. Include at least two `<p>` paragraphs under each genre
-4. Save as `1-headings-paragraphs.html`
-
-### 2-lists.html
-**Instructions**:
-1. Create an ordered list `<ol>` of top 5 movies
-2. Create an unordered list `<ul>` of recipe ingredients
-3. Style lists with different bullet types
-4. Save as `2-lists.html`
-
-### 3-links-images.html
-**Instructions**:
-1. Add external link that opens in new tab (`target="_blank"`)
-2. Include local image with relative path
-3. Add web image with absolute URL and alt text
-4. Save as `3-links-images.html`
-
-## CSS Basics Challenges
-
-### 4-colors-backgrounds.css
-**Instructions**:
-1. Create `color-box` class with:
-   - 200px dimensions
-   - Semi-transparent red background
-   - Dashed blue border
-   - Rounded corners
-2. Save as `4-colors-backgrounds.css`
-
-### 5-text-styling.css
-**Instructions**:
-1. Style `fancy-text` class with:
-   - Arial, 24px
-   - Italic and bold
-   - 2px letter spacing
-   - Text shadow
-2. Save as `5-text-styling.css`
-
-### 6-box-model.css
-**Instructions**:
-1. Create `box-model-demo` class demonstrating:
-   - 300px width with padding
-   - Margin and border
-   - Centered alignment
-2. Save as `6-box-model.css`
-
-## Intermediate Challenges
-
-### 7-forms.html
-**Instructions**:
-1. Build registration form with:
-   - Text inputs
-   - Radio buttons
-   - Checkboxes
-   - Dropdown
-   - Styled submit button
-2. Save as `7-forms.html`
-
-### 8-responsive-grid.css
-**Instructions**:
-1. Create 3×3 responsive grid with:
-   - Header/footer spanning columns
-   - Sidebar and main content areas
-   - Mobile collapse behavior
-2. Save as `8-responsive-grid.css`
-
-## Project Challenges
-
-### 9-portfolio-project/
-**Instructions**:
-1. Create folder `9-portfolio-project/`
-2. Include:
-   - `index.html` (semantic structure)
-   - `styles.css` (responsive design)
-   - Dark/light mode toggle
-3. Implement smooth scrolling navigation
-
-### 10-css-art-challenge/
-**Instructions**:
-1. Create folder `10-css-art-challenge/`
-2. Make `index.html` with single `<div>`
-3. Create `styles.css` with:
-   - Pure CSS artwork
-   - At least one animation
-   - Responsive scaling
-
-**File Structure Example**:
-```
-html-css-challenges/
-├── 0-html-structure.html
-├── 1-headings-paragraphs.html
-├── 2-lists.html
-├── 3-links-images.html
-├── 4-colors-backgrounds.css
-├── 5-text-styling.css
-├── 6-box-model.css
-├── 7-forms.html
-├── 8-responsive-grid.css
-├── 9-portfolio-project/
-│   ├── index.html
-│   └── styles.css
-└── 10-css-art-challenge/
-    ├── index.html
-    └── styles.css
-```
-
-Each file should include:
-1. Comment header with challenge description
-2. Minimum required HTML/CSS to start
-3. Clear TODO comments for implementation steps
